@@ -6,7 +6,7 @@ const Header = () => {
     const { StyledHeader  } = Styles
     return (
         <>
-
+            <h1>Помодоро</h1>
         </>
     )
 }
