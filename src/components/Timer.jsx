@@ -3,10 +3,13 @@ import Styles from "../styles/Timer.css"
 
 
 const Timer = () => {
-    const { StyledTimer } = Styles
+    const { StyledTimer, TimerContainer } = Styles
     return (
         <>
-
+            <TimerContainer>
+                <StyledTimer>20</StyledTimer>
+                <StyledTimer>00</StyledTimer>
+            </TimerContainer>
         </>
     )
 }

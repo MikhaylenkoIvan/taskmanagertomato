@@ -3,10 +3,12 @@ import Styles from "../styles/Header.css";
 
 
 const Header = () => {
-    const { StyledHeader  } = Styles
+    const { StyledHeader, Logo  } = Styles
     return (
         <>
-            <h1>Помодоро</h1>
+            <StyledHeader>
+                <Logo>Помодоро</Logo>
+            </StyledHeader>
         </>
     )
 }
