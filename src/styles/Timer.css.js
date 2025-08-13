@@ -10,6 +10,8 @@ const Styles = {
         width: 15%;
         border-radius: 100px;
         border: 2px solid white;
+        font-weight: 500;
+        font-size: 50px;
     `,
     TimerContainer: styled.div`
         display: flex;
